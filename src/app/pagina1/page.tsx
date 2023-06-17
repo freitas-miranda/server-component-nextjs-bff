@@ -1,5 +1,12 @@
+import { ClientComponent } from "../components/ClientComponent";
+import { ListStocks } from "../components/ListStocks";
+
 export default function Pagina1() {
   return (
-    <h1>Pagina1</h1>
-  )
+    <div>
+      <h1>Página 1</h1>
+      <ListStocks />
+      <ClientComponent/>
+    </div>
+  );
 }
